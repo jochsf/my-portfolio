@@ -100,7 +100,7 @@ header nav ul li a:hover {
 
 .hero h3 {
     position: absolute;
-    font-size: ;
+    font-size: 2vw;
     align-items: flex-end;
     justify-content: flex-end;
     color: var(--primary-color);
@@ -124,13 +124,30 @@ header nav ul li a:hover {
     font-size: 35px;
 }
 
-.about-section div {
-    flex: 3 75%;
+.about-section .about-img-container{
+    flex: 1 25%;
     border-left: 3px solid;
+    align-items: center;
+    justify-content: center;
+}
+.about-section .about-img{
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(/assets/images/my-face.JPG);
+    margin: auto;
+    
+
+}
+
+.about-section .about-text {
+    flex: 2 50%;
+
     padding: 0 20px 15px 20px;
 }
 
-.about-section p {
+.about-section .about-text p {
     padding-bottom: 10px;
 }
 
@@ -261,7 +278,6 @@ section h2 {
     word-spacing: 100vw;
 }
 
-
 @media screen and (max-width: 980px) {
 
     .about-section h2, .work-section h2, .contact-section h2{
@@ -272,6 +288,12 @@ section h2 {
         flex: 1 100%;
     }
 
+    .about-section .about-img-container {
+        flex: 1 100%;
+        padding-bottom: 15px;
+        border-left: none;
+    }
+
     .about-section div, .work-section div, .contact-section div {
         border-left: none;
     }
@@ -280,6 +302,7 @@ section h2 {
         word-spacing: normal;
     }
     
+
 }
 
 @media screen and (max-width: 768px) {
@@ -305,6 +328,8 @@ section h2 {
         font-size: 3vw;
         border-bottom: none;
     }
+
+
     .work-grid-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
