@@ -12,6 +12,6 @@ https://jochsf.github.io/my-portfolio/
 
 ## Screenshots
 [Screenshot @ 1024px width](https://snipboard.io/JVUIgK.jpg)
-[Screenshot @ 1024px width](https://snipboard.io/kDCSIm.jpg)
+[Screenshot @ 768px width](https://snipboard.io/kDCSIm.jpg)
 
 
