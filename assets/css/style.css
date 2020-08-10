@@ -135,7 +135,7 @@ header nav ul li a:hover {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-image: url(/assets/images/my-face.JPG);
+    background-image: url(../images/my-face.JPG);
     margin: auto;
     
 
