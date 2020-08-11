@@ -11,7 +11,7 @@ A professional portfolio that showscases your skills and talents to potential em
 https://jochsf.github.io/my-portfolio/
 
 ## Screenshots
-[Screenshot @ 1024px width](https://snipboard.io/JVUIgK.jpg)
+[Screenshot @ 1024px width](https://snipboard.io/JVUIgK.jpg)  
 [Screenshot @ 768px width](https://snipboard.io/kDCSIm.jpg)
 
 
